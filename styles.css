@@ -12,7 +12,7 @@
   main {
     margin-top: 64px;
     min-height: 100vh;
-  
+
   }
   
   
@@ -24,7 +24,7 @@
   
  /* Colours */
    .text-default {
-    color: #0E1726;
+    color: #161c25;
    }
 
    .text-secondary {
@@ -46,7 +46,7 @@
     background-color: #EAC5AD;
    }
    .bg-dark {
-    background-color: #0E1726;
+    background-color: #161c25;
    }
 
    .bg-cream {
@@ -57,7 +57,9 @@
     background-color: white;
   }
 
-
+  .bg-pink {
+    background-color: #D45B5D;
+  }
 
 /* Fonts */
   
@@ -527,7 +529,7 @@ p {
     height: 100%;
     max-height: 70vh;
     /* Set the overlay max-height to match the image */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .5);
     opacity: 0;
     transition: opacity 0.3s ease;
     display: flex;
@@ -842,6 +844,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+  
   
   }
   
