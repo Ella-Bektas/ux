@@ -194,6 +194,13 @@ p {
     background-size: cover;
   }
 
+  .gradient-center {
+    background-image: url('gradient-middle.svg');
+    background-size: cover;
+  }
+
+
+
   .shadow-bottom {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -237,6 +244,13 @@ p {
     overflow: hidden;
   }
   
+  .br-small {
+    border-radius: 1%;
+  }
+
+  .br-medium {
+    border-radius: 3%;
+  }
   
   
   /*End of Layout Containers*/
@@ -395,7 +409,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 2rem;
   }
   
   
@@ -407,12 +421,13 @@ p {
   .grid-item {
     position: relative;
     padding: 1rem;
-    border-radius: 3% ;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
 
   }
   
   
+
+
   .cs-grid-image {
     height: 30vh;
     /* background: linear-gradient(to bottom right, white, #DFDFFF); */
@@ -728,6 +743,15 @@ p {
       grid-template-rows: auto;
     
     }
+
+    .single-container img {
+      max-width: 100%; /* Ensures the image does not exceed the container's width */
+      height: auto; 
+      display: block;
+
+    }
+
+
   
     .double-container {
       display: grid;
