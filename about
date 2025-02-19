@@ -32,7 +32,7 @@
         <ul>
             <li class="logo text-default">Ella Bektas</li>
             <li class="items text-default"><a href="home.html" class="text-default">Home</a></li>
-            <li class="items active"><a href="about.html" class="text-secondary">About</a></li>
+            <li class="items active"><a href="about" class="text-secondary">About</a></li>
             <li class="items text-default"><a href="talks.html" class="text-default">Talks</a></li>
             <li class="btn"><a href="#"><i class="fas fa-bars text-default"></i></a></li>
         </ul>
